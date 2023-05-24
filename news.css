@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:white;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-image: url(./Schedule_background.webp);
+    background-size: cover; 
+     
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-top: 6px ;
+    margin-left: 0 10px;
+    padding: 20px;
+    background-color:black;
+    color: aliceblue;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: all 1s ease;  
+}
+h3,p,h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.nav1{
+list-style:none;
+margin-right: 30px;
+justify-content: space-between;
+}
+.main h1{
+    margin-left: 25px;
+}
+.main h1:hover{
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+ul, li, a{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    transition: all 1s ease;
+    margin-right: 5px;
+    
+}
+ul, li, a:hover{
+    cursor: pointer;
+    color:red;
+    transition: all 1s ease;
+}
+.news h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold 400;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.news h3{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.Football {
+    display: flex;
+    margin-left: 40px;
+    
+}
+.Football  p{
+    font-family: sans-serif;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 40%;
+    
+}
+.Football img{
+    width: 50%;
+    height: 60%;
+}
+.Football img:hover{
+    cursor: pointer;
+   
+}
+
+.cricket{
+    display: flex;
+    margin-left: 40px;
+}
+.cricket img{
+    width: 50%;
+    height: 60%;
+}
+.cricket img:hover{
+    cursor: pointer;
+   
+}
+.cricket  p{
+    font-family: sans-serif;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 40%;
+    
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.basketball img{
+    width: 50%;
+    height: 60%;
+    margin-bottom: 20px;
+}
+.basketball img:hover{
+    cursor: pointer;
+   
+}
+.basketball{
+    display: flex;
+    margin-left: 40px;
+}
+.basketball  p{
+    font-family: sans-serif;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 60%;
+    
+}
+.hockey{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+.hockey  p{
+    font-family: sans-serif;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 60%;
+    
+}
+.hockey img{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 20px;
+}
+.hockey img:hover{
+    cursor: pointer;
+   
+}

@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-image: url(./Schedule_background.webp);
+    background-size: cover;
+    
+     
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color:black;
+    color: aliceblue;
+    transition: all 0.1s; 
+    text-align: center;   
+    padding-top: 12px ;
+    margin-left: 0 15px;
+    margin-right: 0 20px;
+    
+    width: 100%;
+}
+
+.nav1{
+list-style:none;
+}
+h1:hover{
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+ul, li, a{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    transition: all 1s ease;
+    margin-right: 5px;   
+}
+
+ul, li, a:hover{
+    cursor: pointer;
+    color:red;
+    transition: all 1s ease;
+}
+table{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+    
+
+table{
+    border: 1px solid black;
+    margin-left: auto ;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: arial, sans-serif;
+    color:#ffffffee;
+    margin-bottom: 30px;
+}
+td{
+    text-align: center;
+    border: 0.5px solid;
+    padding: 7px;
+}
+th{
+    text-align: center;
+    border: 0.5px solid;
+    padding: 7px;
+   
+}
+
